@@ -145,6 +145,7 @@ padding: 1rem;}
         width:90%; 
       min-height: 40%;
     padding: 1rem;
+    
 }
 
 
@@ -179,17 +180,45 @@ padding: 1rem;}
     padding: 1rem;}
 
     button {
-      
+      text-transform: uppercase;
+      font-family: 'Playfair Display', serif;
       background-color:#414550;
       margin-top: 10px;
       color: #c0bcb2;
       border: none;
-      padding: 10px 10px;
+      padding: 10px 15px;
       border-radius: 5px;
       cursor: pointer;
-      font-size: 16px;
-      
+      font-size: 15px;
+      font-weight:lighter;
     }
+    footer{display: flex;
+      justify-content: center;
+      text-align: center;
+      padding: 1rem;
+      gap: 2rem;
+      background-color: #1f2229;
+      color: #c5c2c2;
+      font-size: 14px;
+     font-weight: 200;
+     
+    }
+      
+    footer p {margin-top: 5px;
+      font-size: 16px;
+
+
+    }
+      
+      
+      
+     
+
+
+
+      
+      
+    
 
     
 
