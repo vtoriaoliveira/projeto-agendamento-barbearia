@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
 
 
-.
+
 
 
 .container{
@@ -53,9 +53,10 @@ border-bottom: 1px solid #c5c2c2;
     display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  padding: 0 1rem;
+  padding: 1rem;
   }
 nav a {text-decoration:none;
+  ;
     color: #d0d7d3;
   font-family: 'Playfair Display', serif;
     font-size: 16px;
@@ -64,6 +65,7 @@ nav a {text-decoration:none;
 nav p{ color: #C9A24D;}
 nav p:hover {color: rgb(233, 209, 160);}
 nav a:hover {color: rgb(161, 134, 80);}
+li{list-style: none;}
 
 
 .card-intro {
@@ -206,9 +208,16 @@ padding: 1rem;}
       
     footer p {margin-top: 5px;
       font-size: 16px;
-
-
     }
+
+    .barber{ font-size: 10px;
+    margin-top: 10px;}
+ 
+ .ph-whatsapp-logo{color: #f7f7f7;
+font-size: 16px;}
+ .ph-instagram-logo{color: #f0ece3;
+font-size: 16px;}
+
       
       
       
